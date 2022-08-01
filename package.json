@@ -1,6 +1,6 @@
 {
   "name": "@egadams/monitored-object",
-  "version": "0.0.1",
+  "version": "0.0.8",
   "type": "module",
   "main": "dist/index.cjs",
   "module": "dist/index.js",
@@ -32,8 +32,8 @@
     "lint": "eslint . --ext .vue,.js,.jsx,.cjs,.mjs,.ts,.tsx,.cts,.mts --fix --ignore-path .gitignore"
   },
   "dependencies": {
-    "@egadams/log-viewer": "0.0.10",
-    "@egadams/monitor-led": "0.0.8",
+    "@egadams/log-viewer": "0.0.12",
+    "@egadams/monitor-led": "0.0.11",
     "jquery": "^3.6.0",
     "log-object-processor": "^1.0.26",
     "log-vuer": "0.0.6",
