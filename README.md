@@ -1,6 +1,6 @@
 # v-test-packge
 
-This template should help get you started developing with Vue 3 in Vite.
+This template has been a way to package and reuse vue components.
 
 ## Recommended IDE Setup
 
@@ -45,7 +45,4 @@ npm run build
 npm run lint
 ```
 
-version: 0.0.7  added object_id
-version: 0.0.8  removed noisy console.log
-version: 0.0.9  forgot to build
-version: 0.0.10 removed noisy from lop
+version: 0.0.1 combine log objects and led viewers into

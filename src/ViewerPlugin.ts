@@ -4,7 +4,7 @@
 import type { App } from "vue"; // The install() method is expecting its 1st argument to be of type App.
 
 // we are registering the SpecialPlugin component in this file, so we need to pull it from another file 1st.
-import { SpecialUploader, SourcedLogViewer } from "./components"; // this didn't work when i wrote it.  keep an eye on it..
+import { SpecialUploader, MonitoredObject } from "./components"; // this didn't work when i wrote it.  keep an eye on it..
 // import {LogObject } from "./components"
 export default {
 
@@ -16,6 +16,6 @@ export default {
 };
 
 export { SpecialUploader }; // for people that want to import the component in by itself.
-export { SourcedLogViewer }; // for people that want to import the component in by itself.
+export { MonitoredObject }; // for people that want to import the component in by itself.
 // export { LogObject }; // for people that want to import the component in by itself.
 // export { LogViewer }; // for people that want to import the component in by itself.
