@@ -33,6 +33,7 @@
   },
   "dependencies": {
     "@egadams/log-viewer": "0.0.10",
+    "@egadams/monitor-led": "0.0.8",
     "jquery": "^3.6.0",
     "log-object-processor": "^1.0.26",
     "log-vuer": "0.0.6",

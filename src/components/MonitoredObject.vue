@@ -5,15 +5,20 @@
         v-bind:data_source_location=" data_source_location "
         v-bind:object_id="            object_id            ">
     </sourced-log-viewer>
+    <monitor-led 
+        v-bind:data_source_location=" data_source_location "
+        v-bind:monitored_object_id="  object_id            ">
+    </monitor-led>
 </template>
 
 <script lang="ts">
 import { defineComponent  } from "vue";
 import { SourcedLogViewer } from "@egadams/log-viewer";
+import   MonitorLed         from "@egadams/monitor-led";
 export default defineComponent({
     name: "MonitoredObject",
-    components: { SourcedLogViewer },
-    data () {  return { this_object_id: "" }},  // to remember were data goes
+    components: { SourcedLogViewer, MonitorLed },
+    data () {  return { this_object_id: "" }},  // to remember data syntax
     methods: { async clearLog () { console.log( "clearing logs..." ); }},
     props: {
         data_source_type: {     type: String, default: "url"                   },
