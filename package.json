@@ -13,7 +13,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/EGAdams/log_viewer.git"
+    "url": "git+https://github.com/EGAdams/monitored-object.git"
   },
   "author": "EG Adams",
   "browser": {
