@@ -3,7 +3,7 @@
     <monitored-object
         data_source_type=     "url"
         data_source_location= "http://mycustombusinessapp.com/wp-content/plugins/MCBA-Wordpress/runQuery.php"
-        object_id=            "MessageManager_1646">
+        object_id=            "AnonymousIdentity_1669">
     </monitored-object>
     </div>
 </template>

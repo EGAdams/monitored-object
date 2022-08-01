@@ -1,10 +1,10 @@
 <!-- SourcedLogViewer component -->
 <template>
-    <sourced-log-viewer-vue  
+    <sourced-log-viewer 
         data_source_type=     this.data_source_type
         data_source_location= this.data_source_location
         object_id=            this.object_id>
-    </sourced-log-viewer-vue>
+    </sourced-log-viewer>
 </template>
 
 <script lang="ts">
