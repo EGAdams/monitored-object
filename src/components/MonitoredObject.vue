@@ -16,10 +16,10 @@ export default defineComponent({
     data () {  return { this_object_id: "" }},  // to remember were data goes
     methods: { async clearLog () { console.log( "clearing logs..." ); }},
     props: {
-        data_source_type: {     type: String, default: "url" },
+        data_source_type: {     type: String, default: "url"                   },
         data_source_location: { type: String, default: "http://localhost:8080" },
-        object_id: {            type: String, default: "MessageManager_1616" }}
-} );
+        object_id: {            type: String, default: "MessageManager_1616"   }}
+});
 </script>
 
 <style scoped>
