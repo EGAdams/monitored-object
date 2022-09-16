@@ -2,7 +2,7 @@
     <div id="log_app">
     <monitored-object
         data_source_type=     "url"
-        data_source_location= "http://mycustombusinessapp.com/wp-content/plugins/MCBA-Wordpress/runQuery.php"
+        data_source_location= "localhost"
         object_id=            "AnonymousIdentity_1669">
     </monitored-object>
     </div>
